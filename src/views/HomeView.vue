@@ -17,7 +17,6 @@
                   <li class="list-group-item"><strong>Cantidad:</strong> {{ producto.cantidad }}</li>
                 </ul>
                 <div class="card-body">
-                  <!-- Enlace a la vista de producto (detalle) -->
                   <router-link :to="{ name: 'productos', params: { id: producto.id } }" class="card-link">Ver más</router-link>
                   <a href="#" class="card-link">Comprar</a>
                 </div>
